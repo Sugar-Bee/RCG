@@ -12,7 +12,7 @@ class App extends Component {
 		//return React.createElement('div', null, 'h1', 'This also works!');
 		return React.createElement(
 			'div',
-			null,
+			{ className: 'App' },
 			React.createElement('h1', null, 'Now h1 works!')
 		);
 	}
