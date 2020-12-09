@@ -9,6 +9,8 @@ class App extends Component {
 				<h1>Hi, How are you!</h1>
 				<p>subtitles!!!</p>
 				<Person></Person>
+				<Person></Person>
+				<Person></Person>
 			</div>
 		);
 	}
